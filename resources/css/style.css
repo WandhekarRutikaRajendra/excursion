@@ -55,13 +55,16 @@ h1{
 }
 
 
-body{
+.bd{
     background-color: black;
     text-align: center;
     width: 1180px;
     height: 1660px;
     margin: 0 auto;
     /* bring to center */
+}
+body{
+    background-color: grey;
 }
 /* Media query for screens smaller than 1180px width */
 /* responsive web */
