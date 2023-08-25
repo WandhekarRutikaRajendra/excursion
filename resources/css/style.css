@@ -1,107 +1,26 @@
-/* styles.css */
-
-/* Hide video controls */
-video::-webkit-media-controls,
-video::-webkit-media-controls-enclosure {
-    display: none !important;
-}
-header {
-    background-color:black;
-    /* color: white; */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-}
-footer {
-    background-color: black;
-    height: 20px;
-    /* color: white; */
-    /* text-align: center; */
-    /* padding: 10px 0; */
-}
-
-
-.video-container {
-    max-width: 800px;
-    margin: 0 auto;
-    /* position: relative;
-    cursor: pointer; */
-    overflow: hidden;
-    /* outside container not visible */
-    /* background-color: black; */
-}
-
-video {
-    width: 40%;
-    height: 50%;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
-}
-
-h1{
-    font-family: Verdana;
-    font-weight: normal;
-    color: white;
-    text-align: centered;
-    font-size: 45px;
-}
-/* styles.css */
-.underline {
-    text-decoration: underline;
-    color: aquamarine;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-.bd{
+body {
     background-color: black;
     text-align: center;
-    width: 1180px;
-    height: 1660px;
-    margin: 0 auto;
-    /* bring to center */
-}
-body{
-
-    background-color: grey;
-}
-/* Media query for screens smaller than 1180px width */
-/* responsive web */
-@media (max-width: 1180px) {
-    body {
-        width: 100%;
-        height: auto; /* Let the content determine the height */
-    }
-}
-
-h2{
+    font-family: "Verdana", sans-serif;
     color: white;
-    font-family: Verdana;
+  }
+  
+  .cta {
+    color: aquamarine;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: normal;
+  }
+  
+  h2 {
+    font-size: 42px;
     font-weight: 300;
-    font-size: 37px;
-}
-/* h3{
-    color: white;
-    font-family: Verdana;
-    font-weight: 300;
-    font-size: 25px;
-} */
-.para{
-
-    font-family: verdana;
+  }
+  
+  p {
     font-size: 21px;
     color: gray;
-}
-.bot{
-    text-align: right;
-    color: gray;
-    font-size: 20px;
-    padding-right: 25px;
-}
-.logo {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Add margin around the logo */
-}
+  }
